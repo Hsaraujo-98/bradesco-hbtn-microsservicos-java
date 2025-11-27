@@ -6,7 +6,8 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>com.example</groupId>
-   version>
+    <artifactId>SongApi</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <name>SongApi</name>
@@ -21,7 +22,13 @@
 
     <properties>
         <java.version>17</java.version>
-   Id>
+    </properties>
+
+    <dependencies>
+        <!-- Spring Web -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+           Id>spring-boot-starter-web</artifactId>
         </dependency>
 
         <!-- Spring Boot DevTools -->
