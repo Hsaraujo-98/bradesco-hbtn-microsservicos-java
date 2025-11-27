@@ -61,14 +61,8 @@ public class Song {
         this.anoLancamento = anoLancamento;
     }
 
-    @Override
-    public boolean equals(Object o) {
-        if (this == o)
-            return true;
-        if (!(o instanceof Song))
-            return false;
-        Song song = (Song) o;
-        return Objects.equals(id, song.id);
+    @Override Objects.equals(id,song.id);
+
     }
 
     @Override
@@ -76,7 +70,7 @@ public class Song {
         return Objects.hash(id);
     }
 
-@Override
+    @Override
     public String toString() {
         return "Song{" +
                 "id=" + id +
@@ -85,3 +79,5 @@ public class Song {
                 ", album='" + album + '\'' +
                 ", anoLancamento='" + anoLancamento + '\'' +
                 '}';
+    }
+}
