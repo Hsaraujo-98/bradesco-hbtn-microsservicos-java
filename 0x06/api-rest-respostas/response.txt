@@ -1,0 +1,18 @@
+You have entered valid ID
+{
+  "status": 400,
+  "message": "ID 0 is invalid.",
+  "timestamp": "2025-11-30T22:15:00"
+}
+{
+  "status": 400,
+  "message": "CPF 0 is invalid.",
+  "timestamp": "2025-11-30T22:15:05"
+}
+{
+  "status": 400,
+  "message": "CPF 1234567899876543 is invalid.",
+  "timestamp": "2025-11-30T22:15:10"
+}
+You have entered valid CPF
+You have entered valid USERNAME
